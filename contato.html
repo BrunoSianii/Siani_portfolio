@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>First of the Year</title>
+    </head>
+    <body>
+        <h3><strong>Informações de contato</strong></h3>
+        <p><em>Telefone:</em> (19) 9-9951-0055</p>
+        <p><em>Email:</em> brunossiani@gmail.com</p>
+        <p><em>Endereço:</em> Av. 56, n°2551, Jardim Paulista II, CEP 13504-420</p>
+
+        <h4>Prencha os campos abaixo e envie uma mensagem</h4>
+        <form action="mailto:brunossiani@gmail.com" method="post" enctype="text/plain">
+            <label for="">Nome</label><br>
+            <input type="text" name="nome" id=""><br>
+            <label>Email</label><br>
+            <input type="email" name="email"><br>
+            <label for="">Telefone de contato</label><br>
+            <input type="tel" name="telefone" 
+                    pattern="[0-9]{2}-[0-9]{1}-[0-9]{4}-[0-9]{4}"><br>
+            <label>Formato: 12-3-4567-8910</label><br><br>
+            <label for="">Data de Nascimento</label><br>
+            <input type="date" name="dataNascimento" id=""><br>
+            <label for="">Comentários</label><br>
+            <textarea name="comment" id="" cols="30" rows="10"></textarea><br>
+            <label>Anexos</label><br>
+            <input type="file" name="arquivo"><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
